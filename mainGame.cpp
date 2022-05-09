@@ -53,7 +53,7 @@ void mainGame::startgame(RenderWindow& window) {
 					options.setView(view);
 					int x = m.GetPressedItem();
 
-					if (x == 1) { // le joueur choisi de commencer à jouer
+					if (x == 1) { // le joueur choisi de commencer Ã  jouer
 						while (Play.isOpen()) {
 							Event aevent;
 							while (Play.pollEvent(aevent)) {
@@ -593,7 +593,7 @@ void mainGame::startgame(RenderWindow& window) {
 										break;
 									case Keyboard::Return:
 										int y = H.getselecteditem();
-										cout << y << endl;
+									
 										switch (y)
 										{
 										case 0:
